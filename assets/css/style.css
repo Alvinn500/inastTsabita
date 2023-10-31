@@ -127,13 +127,16 @@ main {
     display: flex;
     align-items: center;
     gap: 0 .8rem;
-    color: var(--pink-color);
     width: 100%;
 }
 
 .hero-section .text-wrap i {
     font-size: 1.8rem;
     margin: 2px;
+}
+
+.hero-section .text-wrap a i {
+    color: var(--pink-color);
 }
 
 .hero-section .text-wrap .btn a {
@@ -230,6 +233,7 @@ main {
 }
 
 .about-section .text-wrap .skill-container .skill-title {
+    color: var(--font-black-color);
     display: flex;
     justify-content: space-between;
     width: 200px;
