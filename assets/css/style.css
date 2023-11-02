@@ -158,6 +158,10 @@ main {
     z-index: 100;
     object-fit: cover;
     object-position: top;
+    background-color: var(--pink-color);
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 10px;
+    border-end-end-radius: 10px;
 }
 .hero-section .img-wrap span {
     position: absolute;
@@ -296,16 +300,16 @@ main {
 .portofolio-section .projects-wrap {
     display: flex;
     justify-content: center;
-    overflow-x: auto;
-    padding-left: 4.5rem;
+    overflow-x: scroll;
 }
 
 .portofolio-section .projects-wrap .card {
-    margin-left: 2rem;
+    width: 400px;
+    margin-inline: .5rem;
 }
 
 .portofolio-section .projects-wrap .card .card-img{
-    width: 330px;    
+    width: 100%;    
     height: 230px;
     object-fit: cover;
     transform: 30ms ease-in-out;
