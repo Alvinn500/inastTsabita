@@ -159,7 +159,8 @@ main {
     object-fit: cover;
     object-position: top;
     background-color: var(--pink-color);
-    border-top-left-radius: 100px;
+    border-top-left-radius: 400px;
+    border-top-right-radius: 400px;
     border-bottom-left-radius: 10px;
     border-end-end-radius: 10px;
 }
@@ -171,10 +172,6 @@ main {
 
 }
 
-.hero-section .img-wrap span svg {
-    width: 550px;
-    height: 450px;
-}
 
 /* About Styling */
 
