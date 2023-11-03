@@ -159,8 +159,8 @@ main {
     object-fit: cover;
     object-position: top;
     background-color: var(--pink-color);
-    border-top-left-radius: 400px;
-    border-top-right-radius: 400px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-end-end-radius: 10px;
 }
